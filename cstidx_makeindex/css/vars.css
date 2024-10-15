@@ -1,0 +1,72 @@
+/* Variables used in CSS file */
+:root {
+	/* Border values */
+	--border-color: #009;
+	--border-width: 4px;
+	--border-style: solid;
+	--border-radius: 16px;
+
+	/* Border colors */
+	--border-color-primary: #009;
+	--border-color-secondary: #000;
+
+	/* Background colors */
+	--background-color-main: #fff;
+	--text-color-bg-item: #fff0;
+
+	/* Text colors */
+	--text-color-primary: #000;
+	--text-color-secondary: #ff0;
+	--text-color-item: #000a;
+
+	/* Hover colors */
+	--hover-color-primary: #009;
+	--hover-color-background: #cce;
+
+	/* Visited colors */
+	--text-color-item-visit: #000;
+	--background-color-visited: #fff;
+
+	/* Additional colors */
+	--accent-color: #009;
+	/* used in border and hover styles */
+	--text-color-secondary-dark: #000;
+	/* used in text and border styles */
+
+	/* Margin values */
+	--margin-top: 6px;
+	--margin-right: 10px;
+	--margin-bottom: 6px;
+	--margin-left: 6px;
+	--item-margin-top: 0;
+	--item-margin-right: 0;
+	--item-margin-bottom: 0;
+	--item-margin-left: 0;
+
+	/* Padding values */
+	--padding-small: 0px;
+	--padding-medium: 9px;
+	--padding-large: 10px;
+
+	--padding-top: 6px;
+	--padding-right: 10px;
+	--padding-bottom: 6px;
+	--padding-left: 6px;
+	--item-padding-top: 0;
+	--item-padding-right: 0;
+	--item-padding-bottom: 0;
+	--item-padding-left: 0;
+	--item-container-padding-top: 0;
+	--item-container-padding-right: 4px;
+	--item-container-padding-bottom: 0;
+	--item-container-padding-left: 4px;
+
+	/* Line height values */
+	--line-height-body: 1.2;
+	--line-height-heading: 1.1;
+	--line-height-caption: 1.5;
+	--line-height-footer: 1.2;
+
+	/* Index List Width */
+	--idx-list-max-width: 250px;
+}

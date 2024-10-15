@@ -1,0 +1,274 @@
+/* Variables used in CSS file */
+:root {
+	/* Border values */
+	--border-color: #009;
+	--border-width: 6px;
+	--border-style: double;
+	--border-radius: 16px;
+
+	/* Border colors */
+	--border-color-primary: #009;
+	--border-color-secondary: #000;
+
+	/* Background colors */
+	--background-color-main: #fff;
+	--text-color-bg-item: #fff0;
+
+	/* Text colors */
+	--text-color-primary: #000;
+	--text-color-secondary: #ff0;
+	--text-color-item: #000a;
+
+	/* Hover colors */
+	--hover-color-primary: #009;
+	--hover-color-background: #cce;
+
+	/* Additional colors */
+	--accent-color: #009;
+	/* used in border and hover styles */
+	--text-color-secondary-dark: #000;
+	/* used in text and border styles */
+
+	/* Margin values */
+	--margin-top: 6px;
+	--margin-right: 10px;
+	--margin-bottom: 6px;
+	--margin-left: 6px;
+	--item-margin-top: 0;
+	--item-margin-right: 0;
+	--item-margin-bottom: 0;
+	--item-margin-left: 0;
+
+	/* Padding values */
+	--padding-small: 0px;
+	--padding-medium: 9px;
+	--padding-large: 10px;
+
+	--padding-top: 6px;
+	--padding-right: 10px;
+	--padding-bottom: 6px;
+	--padding-left: 6px;
+	--item-padding-top: 0;
+	--item-padding-right: 0;
+	--item-padding-bottom: 0;
+	--item-padding-left: 0;
+	--item-container-padding-top: 0;
+	--item-container-padding-right: 4px;
+	--item-container-padding-bottom: 0;
+	--item-container-padding-left: 4px;
+
+	/* Line height values */
+	--line-height-body: 1.2;
+	--line-height-heading: 1.1;
+	--line-height-caption: 1.5;
+	--line-height-footer: 1.2;
+
+	/* Index List Width */
+	--idx-list-max-width: 250px;
+}
+
+/* CSS Classes */
+#cstidx_pg_idx_list,
+.cstidx_pg_idx_list {
+	display: block;
+	max-width: var(--idx-list-max-width);
+	float: right;
+	border: var(--border-style) var(--border-width) var(--border-color-primary);
+	padding: var(--padding-top) var(--padding-right) var(--padding-bottom)var(--padding-left);
+	border-radius: var(--border-radius);
+	margin: var(--margin-top) var(--margin-right) var(--margin-bottom) var(--margin-left);
+	background-color: var(--background-color-main);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+.cstidx-idx-heading {
+	font-size: 100%;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	padding: 0 0 0 5px;
+	margin: 0px;
+}
+
+.cstidx-item-div {
+	display: table-row;
+}
+
+.cstidx-item-div:hover {
+	color: var(--hover-color-primary);
+}
+
+#cstidx_pg_idx_list a:visited,
+#cstidx_pg_idx_list a:visited {
+	color: var(--text-color-item) !important;
+}
+
+.cstidx-prefix,
+.cstidx-anchor {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.cstidx-item-div:hover {
+	color: var(--hover-color-primary);
+}
+
+.cstidx-idx-container {
+	line-height: 120%;
+}
+
+.cstidx-item-container {
+	padding: var(--item-container-padding-top) var(--item-container-padding-right) var(--item-container-padding-bottom)var(--item-container-padding-left);
+}
+
+.cstidx-item-1 a,
+.cstidx-item-2 a,
+.cstidx-item-3 a,
+.cstidx-item-4 a,
+.cstidx-item-5 a {
+	display: table-cell;
+	color: var(--text-color-item);
+	background-color: var(--text-color-bg-item);
+}
+
+.cstidx-item-1,
+.cstidx-item-2,
+.cstidx-item-3,
+.cstidx-item-4,
+.cstidx-item-5 {
+	width: 100%;
+	line-height: 120%;
+	margin: var(--item-margin-top) var(--item-margin-right) var(--item-margin-bottom) var(--item-margin-left);
+	padding: var(--item-padding-top) var(--item-padding-right) var(--item-padding-bottom) var(--item-padding-left);
+	cursor: pointer;
+	display: inline-block;
+	color: var(--text-color-item);
+}
+
+.cstidx-item-1:visited,
+.cstidx-item-2:visited,
+.cstidx-item-3:visited,
+.cstidx-item-3:visited,
+.cstidx-item-4:visited,
+.cstidx-item-5:visited {
+	/*	color: var(--text-color-item); */
+	color: #000 !important;
+}
+
+.cstidx-item-1:hover,
+.cstidx-item-2:hover,
+.cstidx-item-3:hover,
+.cstidx-item-3:hover,
+.cstidx-item-4:hover,
+.cstidx-item-5:hover {
+	background-color: var(--hover-color-background);
+	color: var(--border-color-secondary);
+}
+
+.cstidx-item-1 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.cstidx-item-2 a {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.cstidx-item-3 {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.cstidx-item-4 {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.cstidx-item-5 {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.cstidx-item-1 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.cstidx-item-2 a {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.cstidx-item-3 {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.cstidx-item-4 {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.cstidx-item-5 {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+/* 	Classes for images and other elements	*/
+.cstidx-float-right {
+	float: right;
+	margin-left: 10px;
+}
+
+.cstidx-float-left {
+	float: left;
+	margin-right: 10px;
+}
+
+.cstidx-clear {
+	clear: both;
+}
+
+.cstidx-clear-left {
+	clear: left;
+}
+
+.cstidx-clear-right {
+	clear: right;
+}
+
+.cstidx-clear-both {
+	clear: both;
+}
+
+.cstidx-text-center {
+	text-align: center;
+}
+
+.cstidx-text-left {
+	text-align: left;
+}
+
+.cstidx-text-right {
+	text-align: right;
+}
+
+.cstidx-text-justify {
+	text-align: justify;
+}
+
+.cstidx-text-uppercase {
+	text-transform: uppercase;
+}
+
+.cstidx-text-lowercase {
+	text-transform: lowercase;
+}
+
+.cstidx-text-capitalize {
+	text-transform: capitalize;
+}

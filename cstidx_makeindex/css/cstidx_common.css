@@ -1,0 +1,96 @@
+.click_on_right:hover,
+.click_on_left:hover,
+.click_top_right:hover,
+.click_top_left:hover,
+.click_bottom_left:hover,
+.click_bottom_right:hover {
+	background-color: #09f3;
+}
+
+.click_on_right,
+.click_on_left,
+.click_top_right,
+.click_top_left,
+.click_bottom_left,
+.click_bottom_right {
+	cursor: pointer;
+}
+
+/*
+.click_on_right strong,
+.click_on_left strong,
+.click_top_right strong,
+.click_top_left strong,
+.click_bottom_left strong,
+.click_bottom_right strong {
+	cursor: text;
+}
+*/
+
+
+.cstidx-item-1,
+.cstidx-item-2,
+.cstidx-item-3,
+.cstidx-item-4,
+.cstidx-item-5 {
+	border-bottom: 1px dotted #000;
+}
+
+/* 	Classes for images and other elements	*/
+.wp-element-caption {
+	text-align: center;
+}
+
+.cstidx-float-right {
+	float: right;
+	margin-left: 10px;
+}
+
+.cstidx-float-left {
+	float: left;
+	margin-right: 10px;
+}
+
+.cstidx-clear {
+	clear: both;
+}
+
+.cstidx-clear-left {
+	clear: left;
+}
+
+.cstidx-clear-right {
+	clear: right;
+}
+
+.cstidx-clear-both {
+	clear: both;
+}
+
+.cstidx-text-center {
+	text-align: center;
+}
+
+.cstidx-text-left {
+	text-align: left;
+}
+
+.cstidx-text-right {
+	text-align: right;
+}
+
+.cstidx-text-justify {
+	text-align: justify;
+}
+
+.cstidx-text-uppercase {
+	text-transform: uppercase;
+}
+
+.cstidx-text-lowercase {
+	text-transform: lowercase;
+}
+
+.cstidx-text-capitalize {
+	text-transform: capitalize;
+}
